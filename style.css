@@ -257,26 +257,50 @@ footer{
     background:var(--grayish-blue);
     padding: 44px 164px 44px 164px;
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 2fr;
-    grid-template-rows: auto;
+    grid-template-columns: 3fr 1.5fr 1.5fr 1.5fr 2fr;
     column-gap: 70px;
-    grid-template-areas: 
-    "logo . . . ."
-    "location contact links more-links social-icons"
-    ;
 }
 
 .footer-logo{
-    grid-area: logo;
     margin-bottom: 35px;
 }
 
 .footer-contact{
-    grid-area: contact;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    text-decoration: none;
+    padding: 10px 0px;
 }
 
-.footer-links a{
-    margin-bottom: 24px;
+.footer-contact a{
+    text-decoration: none;
+}
+
+.footer-policy{
+    display: grid;
+    grid-template-rows: 0.2fr 0.2fr;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+.footer-policy a{
+    text-decoration: none;
+}
+.footer-guide{
+    padding: 10px 0px;
+}
+.footer-guide a{
+    text-decoration: none;
+}
+
+.social-icons{
+    padding: 10px 0px;
+}
+
+.fa-facebook{
+    padding-right: 5px;
+}
+
+.fa-twitter{
+    padding-right: 5px;
 }
